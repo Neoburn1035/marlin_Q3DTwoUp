@@ -66,7 +66,7 @@
 #elif MB(BRAINWAVE_PRO)
   #define MACHINE_NAME "Kossel Pro"
   #ifndef FIRMWARE_URL
-    #define FIRMWARE_URL "https://github.com/OpenBeamUSA/Marlin/"
+    #define FIRMWARE_URL "none"
   #endif
 #else
   #ifndef MACHINE_NAME
@@ -85,11 +85,11 @@
 #endif
 
 #ifndef FIRMWARE_URL
-  #define FIRMWARE_URL "https://github.com/wubbllez/Q3d-Marlin-RAMPS"
+  #define FIRMWARE_URL "https://github.com/Neoburn1035/marlin_Q3DTwoUp"
 #endif
 
 #ifndef BUILD_VERSION
-  #define BUILD_VERSION "V1.0.2;"
+  #define BUILD_VERSION "V1.0.2.2;"
 #endif
 
 #ifndef MACHINE_UUID
